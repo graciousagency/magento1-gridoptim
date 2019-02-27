@@ -10,4 +10,4 @@ One of our customers complained that creating a new order from an existing order
 This module rewrites `sales_order_create_customer_grid` to `Gracious_Gridoptim_Block_Adminhtml_Sales_Order_Create_Customer_Grid` and breaks out of the `__construct` when a customer and it's id can be retrieved using `Mage::getSingleton('adminhtml/session_quote')->getCustomer();`
 
 ## The Result ##
-Load times improved by over 30 seconds for that shops which has >720K unique customers in the `customer_entity` table. The page now loads within seconds.
+Load times improved by over 30 seconds for the customer's shop which has >720K unique customers in the `customer_entity` table. The page now loads within seconds.
