@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gracious_Gridoptim>
+            <version>1.0.0</version>
+        </Gracious_Gridoptim>
+    </modules>
+    <global>
+        <blocks>
+            <gridoptim>
+                <class>Gracious_Gridoptim_Block</class>
+            </gridoptim>
+            <adminhtml>
+                <rewrite>
+                    <sales_order_create_customer_grid>
+                        Gracious_Gridoptim_Block_Adminhtml_Sales_Order_Create_Customer_Grid
+                    </sales_order_create_customer_grid>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config> 

@@ -1,0 +1,12 @@
+{
+    "name": "gracious/magento1-gridoptim",
+    "license": "MIT",
+    "description": "Magento loads a customer grid on making a new order from the admin section. If you are creating a new order from an existing order then the customer is already known and the grid should not be shown then.",
+    "type": "magento-module",
+    "authors": [
+      {
+        "name": "Pepijn Blom",
+        "email": "p.blom@gracious.nl"
+      }
+    ]
+  }
